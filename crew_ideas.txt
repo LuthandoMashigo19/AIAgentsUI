@@ -49,4 +49,6 @@ LLM Selection for the agents and the normal chatbot
 Use Langchain, Gitlab and Github tools to make self creating ai and updaters and such, do research.
 
 Such as do you wanna build team selectors or recommneding to a manager llm to build its on agents.
+
+For any software team I have have a git specialist agent for whom will push code with langchain toolkit for git hub
 #########
