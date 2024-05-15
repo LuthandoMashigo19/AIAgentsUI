@@ -50,5 +50,6 @@ Use Langchain, Gitlab and Github tools to make self creating ai and updaters and
 
 Such as do you wanna build team selectors or recommneding to a manager llm to build its on agents.
 
-For any software team I have have a git specialist agent for whom will push code with langchain toolkit for git hub
+For any software team I have have a git specialist agent for whom will push code with langchain toolkit for git hub 
+Setup the  Github App first
 #########
