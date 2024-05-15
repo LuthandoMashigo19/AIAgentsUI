@@ -1,0 +1,52 @@
+Software engineering crews
+
+frontend crew
+- technology researcher 
+- sw emgineer
+- ux ui designer 
+- senior frontend qa engineer 
+- chief frontend qa engineer
+
+backend crew
+- technology researcher
+- sw emgineer
+- architecture designer 
+- senior backend qa engineer 
+- chief backend qa engineer
+
+intergration crew
+- senior software integration specialist
+- sneior software tester
+- senior qa engineer 
+- chief qa engineer
+
+database crew 
+- data analyst
+- database architect specialist
+- database administrato
+
+documentation crew 
+- senior code 
+
+research crew 
+- senior research
+- senior writer/summariser
+
+####################
+Research other crew use cases and build them out
+Find a way to have the crews interact with one another either via result hoping or api's or some sort of manager llm that crew ai has.
+Find ways I can properly incorpoarte agents into my daily life such as with automations of software related mundane tasks.
+See if I can do agemt as a servoce after compiling some paper work for this type of service offering.
+Also find a way to ghave the agents interface with something like gitla in oder to create pipelines thprigh an api and learn how to do on platform code reviews before committing actua code to a project, have agents programmically work on a project that is connect to gitlab ci/cd 24/7
+Find a way to generate a new agent via a mangager llm according to this template and what their speciality:
+the agent template 
+Find a way for the agents to write and create their own skills
+Export templating engine similar to canva and to output to file system
+Add a prompt engineer agent which refines the instructions if needed, add him to any team I make
+Find a way to quickly define agents and their taks use GPT, other LLM's
+LLM Selection for the agents and the normal chatbot
+
+Use Langchain, Gitlab and Github tools to make self creating ai and updaters and such, do research.
+
+Such as do you wanna build team selectors or recommneding to a manager llm to build its on agents.
+#########
