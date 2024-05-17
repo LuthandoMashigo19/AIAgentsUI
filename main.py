@@ -8,6 +8,8 @@ from crewai import Crew
 from tasks import Tasks
 from agents import Agents
 
+#Main
+
 tasks = Tasks()
 agents = Agents()
 
@@ -141,10 +143,9 @@ if prompt := st.chat_input():
                                         client=None),
                                     verbose=True)
 
-                         
                         task = crew.kickoff()
                         st.chat_message("assistant").write(task)
-            
+
             elif functionality == "No, I will continue using the regular AI Chatbot":
                         #Regular chatbot stuff
                         if extractedtext:

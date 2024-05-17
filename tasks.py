@@ -7,7 +7,7 @@ class Tasks():
     def research_plan_task(self, agent, task):
         return Task(
             description=
-            f"""You are tasked with creating a comprehensive and succinct plan for developing a program tailored to a specified task. If no programming language is designated, select the one you believe is most suitable for the project. Use your tools to thoroughly investigate relevant sources, including websites and documents, to gather extensive information before drafting your plan.
+            f"""You are tasked with creating a comprehensive and succinct plan for developing a program tailored to a specified task. If no programming language is designated, select the one you believe is most suitable for the project. Use your tools to thoroughly investigate relevant sources, including websites and documents, to gather extensive information before drafting your plan .
 
 Instructions:
 

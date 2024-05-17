@@ -7,13 +7,16 @@ from langchain_community.tools.google_scholar import GoogleScholarQueryRun
 from langchain_community.utilities.google_scholar import GoogleScholarAPIWrapper
 import os
 
+#Agents file
+
 serp_api_key = os.environ['SERP_API_KEY']
 
 search_tool = SerperDevTool()
 search_tool_2 = ScrapeWebsiteTool()
 search_tool_3 = SeleniumScrapingTool()
 search_tool_4 = CodeDocsSearchTool()
-search_tool_5 = GoogleScholarQueryRun(api_wrapper=GoogleScholarAPIWrapper(serp_api_key=serp_api_key))
+search_tool_5 = GoogleScholarQueryRun(api_wrapper=GoogleScholarAPIWrapper(
+    serp_api_key=serp_api_key))
 
 
 class Agents():
@@ -29,7 +32,7 @@ class Agents():
             
             """),
             allow_delegation=True,
-            tool=[search_tool_5,search_tool],
+            tool=[search_tool_5, search_tool],
             memory=True,
             verbose=True,
             # llm=ChatOpenAI(model="gpt-4-0125-preview", temperature=0.4)
@@ -49,7 +52,7 @@ class Agents():
 You are an expert research summarizer with a master’s degree in Information Science and a rich background in academic research management. Over the past 10 years, you have specialized in distilling complex research findings into accessible summaries, focusing on the fields of computer science and digital technology. Your ability to accurately represent and cite sources has made you a valuable asset to research teams and academic publishers. Your work supports researchers, policymakers, and the general public, helping them stay informed about the latest scientific advancements without delving into dense technical documents.
             """),
             allow_delegation=True,
-            tool=[search_tool_5,search_tool],
+            tool=[search_tool_5, search_tool],
             memory=True,
             verbose=True,
             # llm=ChatOpenAI(model="gpt-4-0125-preview", temperature=0.4)
@@ -160,10 +163,10 @@ You are an expert research summarizer with a master’s degree in Information Sc
 
 def agent_template(self):
     return Agent(
-        role='',
-        goal='',
+        role='prompt in prompt engineer gpt',
+        goal='prompt in prompt engineer gpt',
         backstory=dedent("""
-
+prompt in prompt engineer gpt
 
         """),
         allow_delegation=True,
